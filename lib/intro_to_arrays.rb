@@ -3,6 +3,18 @@ new_arr = []
 new_arr
 end
 
-def array_with_two_elements 
+def array_with_two_elements
 new_arr = [1, 2]
+end
+
+def first_element(arr)
+  arr.first
+end
+
+def third_element(arr)
+  arr[2]
+end
+
+def last_element (arr)
+  arr[-1]
 end
